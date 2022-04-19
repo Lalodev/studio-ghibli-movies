@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Movies from "./components/Movies";
+import logo from "./images/studio-ghibli-logo.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-movies">
+      <div className="logo-contenedor">
+        <div className="logo">
+          <img src={logo} alt="Studio Ghibli" />
+        </div>
+      </div>
+      <div className="movies-contenedor">
+        <Movies />
+      </div>
     </div>
   );
 }

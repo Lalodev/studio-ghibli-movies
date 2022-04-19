@@ -1,0 +1,27 @@
+.movie-form {
+  height: 125px;
+}
+
+.input {
+  border: thin solid #dedede;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  outline: none;
+  width: 20%;
+  line-height: 1;
+  background-color: transparent;
+}
+
+input[type="submit"],
+button {
+  border: thin solid #dedede;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.error {
+  border: thin solid #ba1d1d;
+}
